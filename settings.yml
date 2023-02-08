@@ -24,7 +24,7 @@ hide_for_staff:
   default: false
 
 hide_on_mobile:
-  default: false
+  default: true
 
 hide_for_anon:
   default: false
@@ -58,19 +58,19 @@ banner_background_color:
 
 banner_box_background_color:
   type: string
-  default: "var(--secondary)"
+  default: "transparent"
 
 banner_text_color:
   type: string
-  default: "var(--primary)"
+  default: "var(--secondary)"
 
 banner_icon_color:
   type: string
-  default: "var(--primary-high)"
+  default: "var(--secondary)"
 
 banner_link_color:
   type: string
-  default: "var(--tertiary)"
+  default: "var(--secondary)"
 
 svg_icons:
   default: "user-group"
